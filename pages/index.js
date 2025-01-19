@@ -92,7 +92,7 @@ export default function Home() {
           </div>
 
           {/* <Socials className="mt-2 laptop:mt-5" /> */}
-          <Button type="secondary" onClick={() => window.open("https://calendly.com/zuhayrhasandev/discussion-on-project")}>Book Free Consultation</Button>
+          <Button type="secondary" onClick={() => window.open("https://calendly.com/umarfarooqtech55/30min")}>Book Free Consultation</Button>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Projects.</h1>
