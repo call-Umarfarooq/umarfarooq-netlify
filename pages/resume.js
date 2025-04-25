@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Cursor from "../components/Cursor";
+// import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
@@ -17,7 +17,7 @@ const Resume = () => {
   const [mount, setMount] = useState(false);
 
   const handleClick = () => {
-    const url = "https://zuhayr77.notion.site/zuhayr77/Zuhayr-Hasan-64ee0fad18ee4240b2b9c89bc1ac6862";
+    const url = "";
     window.open(url, "_blank");
   }
 
@@ -36,10 +36,10 @@ const Resume = () => {
           </Button>
         </div>
       )}
-      {data.showCursor && <Cursor />}
+      {/* {data.showCursor && <Cursor />} */}
       <div
         className={`container mx-auto mb-10 ${
-          data.showCursor && "cursor-none"
+          data.showCursor && ""
         }`}
       >
         <Header isBlog />

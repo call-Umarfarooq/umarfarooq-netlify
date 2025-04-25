@@ -3,7 +3,7 @@ import Router, { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { stagger } from "../../animations";
 import Button from "../../components/Button";
-import Cursor from "../../components/Cursor";
+// import Cursor from "../../components/Cursor";
 import Header from "../../components/Header";
 import data from "../../data/portfolio.json";
 import { ISOToDate, useIsomorphicLayoutEffect } from "../../utils";
@@ -63,13 +63,13 @@ const Blog = ({ posts }) => {
   return (
     showBlog.current && (
       <>
-        {data.showCursor && <Cursor />}
+        {/* {data.showCursor && <Cursor />} */}
         <Head>
-          <title>Blog</title>
+          {/* <title>Blog</title> */}
         </Head>
         <div
           className={`container mx-auto mb-10 ${
-            data.showCursor && "cursor-none"
+            data.showCursor && ""
           }`}
         >
           <Header isBlog={true}></Header>
